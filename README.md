@@ -1,7 +1,4 @@
-
-Here's a similar style for your Windows EC2 Setup repository:
-
-Windows EC2 Setup on AWS
+#Windows EC2 Setup on AWS#
 This repository contains setup documentation for a Windows EC2 instance on AWS with RDP access enabled.
 
 Files:
