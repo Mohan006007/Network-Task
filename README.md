@@ -1,16 +1,14 @@
-# Network Task Submission
 
-This repository contains the results for the network task, including connectivity tests, domain IP retrieval, port checks, and server resource usage.
+Here's a similar style for your Windows EC2 Setup repository:
 
-## Files:
-1. **Connectivity between 2 nodes.png** – Verified network connectivity between two nodes.
-2. **Domain IP.png** – Retrieved the IP address for the domain `guvi.in`.
-3. **Port Check.png** – Checked the status of port 9000 on `guvi.com`, confirmed it is filtered.
-4. **Server CPU Usage 1.png** & **Server CPU Usage 2.png** – Captured server CPU usage metrics.
-5. **Server Memory Usage.png** – Captured server memory usage statistics.
-6. **AWS Console.png** – Screenshot of AWS server running status.
+Windows EC2 Setup on AWS
+This repository contains setup documentation for a Windows EC2 instance on AWS with RDP access enabled.
 
-## Notes:
-- Port 9000 on `guvi.com` is **filtered**, indicating it's blocked by a firewall or security group.
-
-All screenshots are included in this repository for reference.
+Files:
+aws-ec2-dashboard.png – Snapshot of the AWS EC2 dashboard showing instance details.
+windows-security-group-rdp.png – Configuration of security group allowing RDP access.
+ec2-rdp-connection.png – Screenshot of the RDP connection to the instance.
+instance-system-info.png – Output of the system information command for verification.
+Notes:
+RDP access enabled through port 3389 in the security group.
+All images are provided as evidence of setup completion and verification.
